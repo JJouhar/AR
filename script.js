@@ -52,7 +52,7 @@ var setModel = function (model, entity) {
     }
 
     if (model.position) {
-        entity.setAttribute('position',model.position);
+        entity.setAttribute('position', model.position);
     }
 
     entity.setAttribute('gltf-model', model.url);
@@ -64,7 +64,7 @@ var setModel = function (model, entity) {
 function renderPlaces(places) {
     let scene = document.querySelector('a-scene');
 
-        places.forEach((place) => {
+    places.forEach((place) => {
         let latitude = place.location.lat;
         let longitude = place.location.lng;
 
@@ -80,7 +80,7 @@ function renderPlaces(places) {
             modelIndex++;
             var newIndex = modelIndex % models.length;
             setModel(models[newIndex], entity);
-        ;
+        });
 
         scene.appendChild(model);
     });
