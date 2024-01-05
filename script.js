@@ -23,7 +23,6 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './assets/magnemite/scene.gltf',
-        position: '-0 0.1 -8',
         scale: '0.5 0.5 0.5',
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
@@ -53,7 +52,7 @@ var setModel = function (model, entity) {
     }
 
     if (model.position) {
-        //entity.setAttribute('position', model.position);
+        entity.setAttribute('position','-0.0 0.1 -0.8');
     }
 
     entity.setAttribute('gltf-model', model.url);
