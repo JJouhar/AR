@@ -28,16 +28,16 @@ var models = [
         rotation: '0 180 0',
     },
     {
-        url: './assets/articuno/scene.gltf',
-        scale: '0.2 0.2 0.2',
+        url: './assets/skeleton/scene.gltf',
+        scale: '0.2 0.2 0.2', 
         rotation: '0 180 0',
-        info: 'Articuno, Lv. 80, HP 100/100',
+        info: 'skeleton, Lv. 80, HP 100/100',
     },
     {
-        url: './assets/dragonite/scene.gltf',
+        url: './assets/toyart/scene.gltf',
         scale: '0.08 0.08 0.08',
         rotation: '0 180 0',
-        info: 'Dragonite, Lv. 99, HP 150/150',
+        info: 'toyart, Lv. 99, HP 150/150',
     },
 ];
 
