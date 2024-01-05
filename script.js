@@ -52,7 +52,7 @@ var setModel = function (model, entity) {
     }
 
     if (model.position) {
-        entity.setAttribute('position','-0.0 0.5 -0.8');
+        entity.setAttribute('position',model.position);
     }
 
     entity.setAttribute('gltf-model', model.url);
@@ -64,12 +64,12 @@ var setModel = function (model, entity) {
 function renderPlaces(places) {
     let scene = document.querySelector('a-scene');
 
-    places.forEach((place) => {
-       // let latitude = place.location.lat;
+        //places.forEach((place) => {
+        //let latitude = place.location.lat;
         //let longitude = place.location.lng;
 
         let model = document.createElement('a-entity');
-        model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
+        //model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
 
         setModel(models[modelIndex], model);
 
@@ -80,7 +80,7 @@ function renderPlaces(places) {
             modelIndex++;
             var newIndex = modelIndex % models.length;
             setModel(models[newIndex], entity);
-        });
+        ;
 
         scene.appendChild(model);
     });
