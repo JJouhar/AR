@@ -1,0 +1,11 @@
+Model Information:
+* title:	skeleton spider boss mega
+* source:	https://sketchfab.com/3d-models/skeleton-spider-boss-mega-81aca85be7814a629649b202742e8cad
+* author:	GR-video (https://sketchfab.com/grvideotv)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "skeleton spider boss mega" (https://sketchfab.com/3d-models/skeleton-spider-boss-mega-81aca85be7814a629649b202742e8cad) by GR-video (https://sketchfab.com/grvideotv) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
