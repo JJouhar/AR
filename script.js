@@ -3,7 +3,7 @@ window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
     button.innerText = 'X';
 
-    let places = staticLoadPlaces();
+    //let places = staticLoadPlaces();
     renderPlaces(places);
 };
 
@@ -52,7 +52,7 @@ var setModel = function (model, entity) {
     }
 
     if (model.position) {
-        entity.setAttribute('position','-0.0 0.1 -0.8');
+        entity.setAttribute('position','-0.0 0.5 -0.8');
     }
 
     entity.setAttribute('gltf-model', model.url);
@@ -65,8 +65,8 @@ function renderPlaces(places) {
     let scene = document.querySelector('a-scene');
 
     places.forEach((place) => {
-        let latitude = place.location.lat;
-        let longitude = place.location.lng;
+       // let latitude = place.location.lat;
+        //let longitude = place.location.lng;
 
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
